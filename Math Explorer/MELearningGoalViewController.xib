@@ -106,7 +106,7 @@
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
-						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">navPrev.png</string>
 						</object>
@@ -126,6 +126,7 @@
 						<string key="NSFrame">{{876, 600}, {128, 128}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -134,7 +135,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="858070541"/>
 						<reference key="IBUINormalTitleColor" ref="252322102"/>
 						<reference key="IBUINormalTitleShadowColor" ref="1040690140"/>
-						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">navNext.png</string>
 						</object>
