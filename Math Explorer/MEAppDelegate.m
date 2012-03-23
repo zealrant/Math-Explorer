@@ -12,7 +12,7 @@
 
 @implementation MEAppDelegate
 
-@synthesize langCode, dbo;
+@synthesize ctrlBackup, langCode, dbo;
 
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	[self checkAndCreateDatabase];

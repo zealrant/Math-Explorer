@@ -2,7 +2,7 @@
 //  MEReadingIntroViewController.m
 //  Math Explorer
 //
-//  Created by Cyrus Hackford on 3/14/12.
+//  Created by Cyrus I. Hackford on 3/14/12.
 //  Copyright (c) 2012 SI devIk. All rights reserved.
 //
 
@@ -48,7 +48,8 @@
 }
 
 -(IBAction)nextClicked:(id)sender {
-	[[self navigationController] pushViewController:[[MEReadingSection1ViewController alloc] initWithNibName:@"MEReadingSection1ViewController" bundle:nil] animated:YES];
+	[(MEAppDelegate *)[[UIApplication sharedApplication] delegate] setCtrlBackup:[[self navigationController] viewControllers]];
+	[[self navigationController] setViewControllers:[NSArray arrayWithObject:[[MEReadingSection1ViewController alloc] initWithNibName:@"MEReadingSection1ViewController" bundle:nil]] animated:YES];
 }
 
 @end
