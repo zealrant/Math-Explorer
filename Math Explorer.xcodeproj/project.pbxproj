@@ -41,6 +41,7 @@
 		6B014E2E15074BF70005DB22 /* MELearningGoalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELearningGoalViewController.h; sourceTree = "<group>"; };
 		6B014E2F15074BF70005DB22 /* MELearningGoalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELearningGoalViewController.m; sourceTree = "<group>"; };
 		6B014E3015074BF70005DB22 /* MELearningGoalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MELearningGoalViewController.xib; sourceTree = "<group>"; };
+		6B294EB0151B1CAF00C70C7B /* Math Explorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Math Explorer.entitlements"; sourceTree = "<group>"; };
 		6B77A4E7150A1E72003F5611 /* navHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navHome.png; sourceTree = "<group>"; };
 		6B77A4E8150A1E72003F5611 /* navNext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navNext.png; sourceTree = "<group>"; };
 		6B77A4E9150A1E72003F5611 /* navPrev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navPrev.png; sourceTree = "<group>"; };
@@ -205,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				6BB3F49F1505FE7A00E7C72E /* main.m */,
+				6B294EB0151B1CAF00C70C7B /* Math Explorer.entitlements */,
 				6BB3F49B1505FE7A00E7C72E /* Math Explorer-Info.plist */,
 				6BB3F4A11505FE7A00E7C72E /* Math Explorer-Prefix.pch */,
 				6BB3F4A21505FE7A00E7C72E /* MEAppDelegate.h */,
@@ -288,7 +290,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ME;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "SI devIk";
 			};
 			buildConfigurationList = 6BB3F4891505FE7A00E7C72E /* Build configuration list for PBXProject "Math Explorer" */;
@@ -401,6 +403,7 @@
 		6BB3F4A81505FE7A00E7C72E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Math Explorer/Math Explorer.entitlements";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Math Explorer/Math Explorer-Prefix.pch";
 				INFOPLIST_FILE = "Math Explorer/Math Explorer-Info.plist";
