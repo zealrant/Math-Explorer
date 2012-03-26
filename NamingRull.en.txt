@@ -1,0 +1,156 @@
+1	 ‘s block have?
+2	 ‘s block. How many
+3	and
+4	Andy
+5	Apples
+6	are left in the yard. How many
+7	are on the table. How many
+8	are playing baseball?
+9	are playing baseball. How many
+10	are playing in the yard in all?
+11	at the park
+12	ate
+13	Avery
+14	Balloons
+15	Bananas
+16	Becky
+17	Birds
+18	block has
+19	Book
+20	Books
+21	Boys
+22	Brian
+23	bring
+24	bring for the party?
+25	brings
+26	Candies
+27	Cans
+28	Cat
+29	Cathy
+30	Cats
+31	children are playing baseball together.
+32	Chocolate
+33	Chris
+34	Coins
+35	collect for recycling?
+36	collects
+37	Cookies
+38	Cory
+39	Cow
+40	Crackers
+41	Crayons
+42	David
+43	Devin
+44	did
+45	Dillon
+46	Dishes
+47	does
+48	Dog
+49	Dogs
+50	draw at the park?
+51	draws
+52	Ducks
+53	eat altogether?
+54	Emily
+55	Emma
+56	Erica
+57	Ethan
+58	Evan
+59	Flowers
+60	for recycling. How many
+61	for the party. How many
+62	for the party. How many more
+63	Forks
+64	from
+65	from her mom.
+66	gave
+67	get from
+68	get from her mom?
+69	gets
+70	Girls
+71	got some
+72	Grace
+73	Grapes
+74	had
+75	had some
+76	has
+77	have altogether?
+78	have in the beginning?
+79	have?
+80	Henry
+81	Holly
+82	Holly’s Cat
+83	Houses
+84	How many
+85	How many pounds does
+86	Jacob
+87	Jamie
+88	Jason
+89	Jody
+90	John
+91	John’s Cow
+92	join them. How many
+93	julia
+94	julie
+95	Justin’s Dog
+96	Kim
+97	last night and
+98	Later,
+99	Lisa
+100	Lydia’s Dog
+101	Maria’s Cow
+102	Mary
+103	more
+104	more pounds than
+105	Naomi
+106	Now,
+107	of her
+108	of his
+109	of them
+110	on the table?
+111	on the table. How many more
+112	on the table. Now,
+113	Oranges
+114	pages of her
+115	Pam
+116	Pears
+117	Pencils
+118	Pens
+119	play at the park
+120	play at the park altogether?
+121	played in the yard in beginning?
+122	played in the yard.
+123	playing together in the yard. How many
+124	Points
+125	pounds.
+126	put on the table?
+127	put some more
+128	ran away
+129	read
+130	read altogether?
+131	Remy
+132	ride on the bus for a field trip?
+133	ride on the bus for a field trip. How many more
+134	Ryan
+135	Sam
+136	Sam’s Cat
+137	Sarah
+138	scores
+139	Scott
+140	Sofia
+141	Some
+142	Stickers
+143	Students
+144	Sugar Cookies
+145	Teachers
+146	than
+147	There are
+148	they bring for the party altogether?
+149	this morning. How many pages of her
+150	together for the party
+151	together for the recycling.
+152	Tom
+153	Trees
+154	weigh?
+155	weighs
+156	were on the table.
