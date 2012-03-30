@@ -28,9 +28,22 @@
 	[self setTitle:[NSString stringWithUTF8String:(const char *)sqlite3_column_text(localizer, 0)]];
 	sqlite3_reset(localizer);
 	
+	sqlite3_bind_text(localizer, 1, [@"reading.sect1.inst" UTF8String], -1, NULL);
+	sqlite3_step(localizer);
+	[instLabel setText:[NSString stringWithUTF8String:(const char *)sqlite3_column_text(localizer, 0)]];
+	sqlite3_reset(localizer);
+	
 	sqlite3_bind_text(localizer, 1, [@"nav.home" UTF8String], -1, NULL);
 	sqlite3_step(localizer);
 	[navHome setTitle:[NSString stringWithUTF8String:(const char *)sqlite3_column_text(localizer, 0)] forState:UIControlStateNormal];
+	sqlite3_finalize(localizer);
+	
+	
+	sqlite3_prepare_v2(dbo, [@"SELECT problems.problem, noun_variables.sv1, noun_variables.sv2, noun_variables.ov1, noun_variables.ov2, num_variables.nv1, num_variables.nv2 FROM problems, noun_variables, num_variables, prob_var_map WHERE problems.id=prob_var_map.prob AND noun_variables.id=prob_var_map.noun_var AND num_variables.id=prob_var_map.num_var AND prob_var_map.lang=:langnum AND prob_var_map.prob=:probnum" UTF8String], -1, &localizer, NULL);
+	sqlite3_bind_int(localizer, 1, langCode);
+	sqlite3_bind_int(localizer, 2, 1);
+	sqlite3_step(localizer);
+	[probView setText:[NSString stringWithFormat:[NSString stringWithUTF8String:(const char *)sqlite3_column_text(localizer, 0)], sqlite3_column_text(localizer, 1), sqlite3_column_text(localizer, 2), sqlite3_column_text(localizer, 3), sqlite3_column_text(localizer, 4), sqlite3_column_int(localizer, 5), sqlite3_column_int(localizer, 6)]];
 	sqlite3_finalize(localizer);
 	
 	localizer=NULL;

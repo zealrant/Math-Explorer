@@ -33,6 +33,8 @@
 		6BB3F4CF1506173C00E7C72E /* METitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3F4CD1506173C00E7C72E /* METitleViewController.m */; };
 		6BB3F4D01506173C00E7C72E /* METitleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB3F4CE1506173C00E7C72E /* METitleViewController.xib */; };
 		6BB3F4D21506184000E7C72E /* ufo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB3F4D11506184000E7C72E /* ufo.png */; };
+		6BF064BA152517D100A540B7 /* MEFindingIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF064B8152517D100A540B7 /* MEFindingIntroViewController.m */; };
+		6BF064BB152517D100A540B7 /* MEFindingIntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF064B9152517D100A540B7 /* MEFindingIntroViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,9 @@
 		6BB3F4CD1506173C00E7C72E /* METitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METitleViewController.m; sourceTree = "<group>"; };
 		6BB3F4CE1506173C00E7C72E /* METitleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = METitleViewController.xib; sourceTree = "<group>"; };
 		6BB3F4D11506184000E7C72E /* ufo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo.png; sourceTree = "<group>"; };
+		6BF064B7152517D100A540B7 /* MEFindingIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEFindingIntroViewController.h; sourceTree = "<group>"; };
+		6BF064B8152517D100A540B7 /* MEFindingIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEFindingIntroViewController.m; sourceTree = "<group>"; };
+		6BF064B9152517D100A540B7 /* MEFindingIntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MEFindingIntroViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +118,7 @@
 		6B77A4ED150A1FDA003F5611 /* 4. Reading Section */ = {
 			isa = PBXGroup;
 			children = (
-				6B77A4F3150A3061003F5611 /* Section 1 */,
-				6B77A4F2150A3059003F5611 /* Section 2 */,
-				6B77A4F1150A3053003F5611 /* Section 3 */,
-				6B77A4F0150A304C003F5611 /* Section 4 */,
+				6B77A4F3150A3061003F5611 /* Step 1 */,
 				6BA87A1E150FB47D00FEB198 /* MEReadingIntroViewController.h */,
 				6BA87A1F150FB47D00FEB198 /* MEReadingIntroViewController.m */,
 				6BA87A20150FB47D00FEB198 /* MEReadingIntroViewController.xib */,
@@ -133,35 +135,24 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		6B77A4F0150A304C003F5611 /* Section 4 */ = {
+		6B77A4F2150A3059003F5611 /* 5. Finding Section */ = {
 			isa = PBXGroup;
 			children = (
+				6BF064B7152517D100A540B7 /* MEFindingIntroViewController.h */,
+				6BF064B8152517D100A540B7 /* MEFindingIntroViewController.m */,
+				6BF064B9152517D100A540B7 /* MEFindingIntroViewController.xib */,
 			);
-			name = "Section 4";
+			name = "5. Finding Section";
 			sourceTree = "<group>";
 		};
-		6B77A4F1150A3053003F5611 /* Section 3 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Section 3";
-			sourceTree = "<group>";
-		};
-		6B77A4F2150A3059003F5611 /* Section 2 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Section 2";
-			sourceTree = "<group>";
-		};
-		6B77A4F3150A3061003F5611 /* Section 1 */ = {
+		6B77A4F3150A3061003F5611 /* Step 1 */ = {
 			isa = PBXGroup;
 			children = (
 				6BA87A18150FB1AF00FEB198 /* MEReadingSection1ViewController.h */,
 				6BA87A19150FB1AF00FEB198 /* MEReadingSection1ViewController.m */,
 				6BA87A1A150FB1AF00FEB198 /* MEReadingSection1ViewController.xib */,
 			);
-			name = "Section 1";
+			name = "Step 1";
 			sourceTree = "<group>";
 		};
 		6BB3F4841505FE7A00E7C72E = {
@@ -223,6 +214,7 @@
 				6BB3F4CA1506150900E7C72E /* 2. Title */,
 				6B014E2D15074BD70005DB22 /* 3. Learning Goal */,
 				6B77A4ED150A1FDA003F5611 /* 4. Reading Section */,
+				6B77A4F2150A3059003F5611 /* 5. Finding Section */,
 			);
 			name = Screens;
 			sourceTree = "<group>";
@@ -330,6 +322,7 @@
 				6BA87A2C150FBF6B00FEB198 /* navNext@2x.png in Resources */,
 				6BA87A2D150FBF6B00FEB198 /* navPrev@2x.png in Resources */,
 				6BA87A2E150FBF6B00FEB198 /* ufo@2x.png in Resources */,
+				6BF064BB152517D100A540B7 /* MEFindingIntroViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +340,7 @@
 				6B014E3115074BF70005DB22 /* MELearningGoalViewController.m in Sources */,
 				6BA87A1B150FB1AF00FEB198 /* MEReadingSection1ViewController.m in Sources */,
 				6BA87A21150FB47D00FEB198 /* MEReadingIntroViewController.m in Sources */,
+				6BF064BA152517D100A540B7 /* MEFindingIntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
