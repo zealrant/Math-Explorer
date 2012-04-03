@@ -48,7 +48,9 @@
 }
 
 -(IBAction)nextClicked:(id)sender {
-	[(MEAppDelegate *)[[UIApplication sharedApplication] delegate] setCtrlBackup:[[self navigationController] viewControllers]];
+	[[self navigationController] setNavigationBarHidden:YES];
+	
+	[[(MEAppDelegate *)[[UIApplication sharedApplication] delegate] crucialBackup] addObject:[[self navigationController] viewControllers]];
 	[[self navigationController] setViewControllers:[NSArray arrayWithObject:[[MEReadingSection1ViewController alloc] initWithNibName:@"MEReadingSection1ViewController" bundle:nil]] animated:YES];
 }
 

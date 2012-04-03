@@ -12,11 +12,13 @@
 
 @implementation MEAppDelegate
 
-@synthesize ctrlBackup, langCode, dbo;
+@synthesize crucialBackup, langCode, dbo;
 
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	[self checkAndCreateDatabase];
 	sqlite3_open_v2([databasePath UTF8String], &dbo, SQLITE_OPEN_READONLY, NULL);
+	
+	[self setCrucialBackup:[NSMutableArray array]];
 	
 	MELanguageSelectionViewController *l=[[MELanguageSelectionViewController alloc] initWithNibName:@"MELanguageSelectionViewController" bundle:nil];
 	navController=[[UINavigationController alloc] initWithRootViewController:l];

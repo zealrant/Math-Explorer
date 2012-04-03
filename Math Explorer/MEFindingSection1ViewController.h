@@ -1,18 +1,17 @@
 //
-//  MEFindingIntroViewController.h
+//  MEFindingSection1ViewController.h
 //  Math Explorer
 //
-//  Created by Cyrus I. Hackford on 3/30/12.
+//  Created by Cyrus I. Hackford on 4/4/12.
 //  Copyright (c) 2012 SI devIk. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 
-@interface MEFindingIntroViewController:UIViewController {
+@interface MEFindingSection1ViewController:UIViewController {
 @private
 	IBOutlet UIButton *navHome;
-	IBOutlet UILabel *findingIntro;
 }
 
 -(IBAction)homeClicked:(id)sender;

@@ -2,11 +2,12 @@
 //  MEFindingIntroViewController.m
 //  Math Explorer
 //
-//  Created by Cyrus Hackford on 3/30/12.
+//  Created by Cyrus I. Hackford on 3/30/12.
 //  Copyright (c) 2012 SI devIk. All rights reserved.
 //
 
 #import "MEFindingIntroViewController.h"
+#import "MEFindingSection1ViewController.h"
 #import "MEAppDelegate.h"
 
 
@@ -39,21 +40,29 @@
 }
 
 -(IBAction)homeClicked:(id)sender {
-	[[self navigationController] setNavigationBarHidden:YES animated:NO];
-	
-	NSMutableArray *rearranged=[NSMutableArray arrayWithArray:[[(MEAppDelegate *)[[UIApplication sharedApplication] delegate] ctrlBackup] subarrayWithRange:NSMakeRange(0, 2)]];
+	NSMutableArray *rearranged=[NSMutableArray arrayWithArray:[[[(MEAppDelegate *)[[UIApplication sharedApplication] delegate] crucialBackup] objectAtIndex:0] subarrayWithRange:NSMakeRange(0, 2)]];
 	[rearranged addObject:self];
 	
-	[[self navigationController] setViewControllers:rearranged animated:NO];
-	[[self navigationController] popToViewController:[rearranged objectAtIndex:1] animated:YES];
+	[[self navigationController] setViewControllers:rearranged];
+	[[self navigationController] popViewControllerAnimated:YES];
 }
 
 -(IBAction)prevClicked:(id)sender {
-	//
+	[[self navigationController] setNavigationBarHidden:NO];
+	
+	NSMutableArray *rearranged=[NSMutableArray arrayWithArray:[[(MEAppDelegate *)[[UIApplication sharedApplication] delegate] crucialBackup] lastObject]];
+	[[(MEAppDelegate *)[[UIApplication sharedApplication] delegate] crucialBackup] removeLastObject];
+	[rearranged addObject:self];
+	
+	[[self navigationController] setViewControllers:rearranged];
+	[[self navigationController] popViewControllerAnimated:YES];
 }
 
 -(IBAction)nextClicked:(id)sender {
-	//
+	[[self navigationController] setNavigationBarHidden:YES];
+	
+	[[(MEAppDelegate *)[[UIApplication sharedApplication] delegate] crucialBackup] addObject:[[self navigationController] viewControllers]];
+	[[self navigationController] setViewControllers:[NSArray arrayWithObject:[[MEFindingSection1ViewController alloc] initWithNibName:@"MEFindingSection1ViewController" bundle:nil]] animated:YES];
 }
 
 

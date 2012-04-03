@@ -14,14 +14,13 @@
 
 @interface MEAppDelegate:UIResponder <UIApplicationDelegate> {
 @private
-	NSArray *ctrlBackup;
 	NSString *databasePath;
 	sqlite3 *dbo;
 	UINavigationController *navController;
 	UIWindow *mainWindow;
 }
 
-@property(strong, nonatomic) NSArray *ctrlBackup;
+@property(strong, nonatomic) NSMutableArray *crucialBackup;
 @property(nonatomic) NSUInteger langCode;
 @property(nonatomic, readonly) sqlite3 *dbo;
 

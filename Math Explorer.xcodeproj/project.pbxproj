@@ -14,6 +14,8 @@
 		6B77A4EA150A1E72003F5611 /* navHome.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B77A4E7150A1E72003F5611 /* navHome.png */; };
 		6B77A4EB150A1E72003F5611 /* navNext.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B77A4E8150A1E72003F5611 /* navNext.png */; };
 		6B77A4EC150A1E72003F5611 /* navPrev.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B77A4E9150A1E72003F5611 /* navPrev.png */; };
+		6B90AB52152B5E8D00AC64FF /* MEFindingSection1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90AB50152B5E8D00AC64FF /* MEFindingSection1ViewController.m */; };
+		6B90AB53152B5E8D00AC64FF /* MEFindingSection1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B90AB51152B5E8D00AC64FF /* MEFindingSection1ViewController.xib */; };
 		6BA87A1B150FB1AF00FEB198 /* MEReadingSection1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA87A19150FB1AF00FEB198 /* MEReadingSection1ViewController.m */; };
 		6BA87A1C150FB1AF00FEB198 /* MEReadingSection1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BA87A1A150FB1AF00FEB198 /* MEReadingSection1ViewController.xib */; };
 		6BA87A21150FB47D00FEB198 /* MEReadingIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA87A1F150FB47D00FEB198 /* MEReadingIntroViewController.m */; };
@@ -49,6 +51,9 @@
 		6B77A4E9150A1E72003F5611 /* navPrev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navPrev.png; sourceTree = "<group>"; };
 		6B77A4EF150A3036003F5611 /* me.title.en.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = me.title.en.m4a; sourceTree = "<group>"; };
 		6B77A4F4150A31B3003F5611 /* me.subtitle.en.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = me.subtitle.en.m4a; sourceTree = "<group>"; };
+		6B90AB4F152B5E8D00AC64FF /* MEFindingSection1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEFindingSection1ViewController.h; sourceTree = "<group>"; };
+		6B90AB50152B5E8D00AC64FF /* MEFindingSection1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEFindingSection1ViewController.m; sourceTree = "<group>"; };
+		6B90AB51152B5E8D00AC64FF /* MEFindingSection1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MEFindingSection1ViewController.xib; sourceTree = "<group>"; };
 		6BA87A18150FB1AF00FEB198 /* MEReadingSection1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEReadingSection1ViewController.h; sourceTree = "<group>"; };
 		6BA87A19150FB1AF00FEB198 /* MEReadingSection1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEReadingSection1ViewController.m; sourceTree = "<group>"; };
 		6BA87A1A150FB1AF00FEB198 /* MEReadingSection1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MEReadingSection1ViewController.xib; sourceTree = "<group>"; };
@@ -118,7 +123,7 @@
 		6B77A4ED150A1FDA003F5611 /* 4. Reading Section */ = {
 			isa = PBXGroup;
 			children = (
-				6B77A4F3150A3061003F5611 /* Step 1 */,
+				6B77A4F3150A3061003F5611 /* Section 1 */,
 				6BA87A1E150FB47D00FEB198 /* MEReadingIntroViewController.h */,
 				6BA87A1F150FB47D00FEB198 /* MEReadingIntroViewController.m */,
 				6BA87A20150FB47D00FEB198 /* MEReadingIntroViewController.xib */,
@@ -138,6 +143,7 @@
 		6B77A4F2150A3059003F5611 /* 5. Finding Section */ = {
 			isa = PBXGroup;
 			children = (
+				6B90AB4D152B5DE900AC64FF /* Section 1 */,
 				6BF064B7152517D100A540B7 /* MEFindingIntroViewController.h */,
 				6BF064B8152517D100A540B7 /* MEFindingIntroViewController.m */,
 				6BF064B9152517D100A540B7 /* MEFindingIntroViewController.xib */,
@@ -145,14 +151,24 @@
 			name = "5. Finding Section";
 			sourceTree = "<group>";
 		};
-		6B77A4F3150A3061003F5611 /* Step 1 */ = {
+		6B77A4F3150A3061003F5611 /* Section 1 */ = {
 			isa = PBXGroup;
 			children = (
 				6BA87A18150FB1AF00FEB198 /* MEReadingSection1ViewController.h */,
 				6BA87A19150FB1AF00FEB198 /* MEReadingSection1ViewController.m */,
 				6BA87A1A150FB1AF00FEB198 /* MEReadingSection1ViewController.xib */,
 			);
-			name = "Step 1";
+			name = "Section 1";
+			sourceTree = "<group>";
+		};
+		6B90AB4D152B5DE900AC64FF /* Section 1 */ = {
+			isa = PBXGroup;
+			children = (
+				6B90AB4F152B5E8D00AC64FF /* MEFindingSection1ViewController.h */,
+				6B90AB50152B5E8D00AC64FF /* MEFindingSection1ViewController.m */,
+				6B90AB51152B5E8D00AC64FF /* MEFindingSection1ViewController.xib */,
+			);
+			name = "Section 1";
 			sourceTree = "<group>";
 		};
 		6BB3F4841505FE7A00E7C72E = {
@@ -323,6 +339,7 @@
 				6BA87A2D150FBF6B00FEB198 /* navPrev@2x.png in Resources */,
 				6BA87A2E150FBF6B00FEB198 /* ufo@2x.png in Resources */,
 				6BF064BB152517D100A540B7 /* MEFindingIntroViewController.xib in Resources */,
+				6B90AB53152B5E8D00AC64FF /* MEFindingSection1ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +358,7 @@
 				6BA87A1B150FB1AF00FEB198 /* MEReadingSection1ViewController.m in Sources */,
 				6BA87A21150FB47D00FEB198 /* MEReadingIntroViewController.m in Sources */,
 				6BF064BA152517D100A540B7 /* MEFindingIntroViewController.m in Sources */,
+				6B90AB52152B5E8D00AC64FF /* MEFindingSection1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +371,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "Math Explorer/Math Explorer.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -368,6 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -379,6 +400,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -388,6 +410,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
