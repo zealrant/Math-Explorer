@@ -12,6 +12,8 @@
 @interface MEFindingSection1ViewController:UIViewController {
 @private
 	IBOutlet UIButton *navHome;
+	IBOutlet UILabel *instLabel;
+	IBOutlet UIWebView *clickCheck;
 }
 
 -(IBAction)homeClicked:(id)sender;

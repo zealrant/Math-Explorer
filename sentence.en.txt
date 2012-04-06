@@ -1,1 +1,0 @@
-An interactive word-problem-solving program

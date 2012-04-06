@@ -28,10 +28,19 @@
 	[self setTitle:[NSString stringWithUTF8String:(const char *)sqlite3_column_text(localizer, 0)]];
 	sqlite3_reset(localizer);
 	
+	/*
+	sqlite3_bind_text(localizer, 1, [@"finding.sect1.inst" UTF8String], -1, NULL);//@
+	sqlite3_step(localizer);
+	[instLabel setText:[NSString stringWithUTF8String:(const char *)sqlite3_column_text(localizer, 0)]];
+	sqlite3_reset(localizer);
+	//*/
+	
 	sqlite3_bind_text(localizer, 1, [@"nav.home" UTF8String], -1, NULL);
 	sqlite3_step(localizer);
 	[navHome setTitle:[NSString stringWithUTF8String:(const char *)sqlite3_column_text(localizer, 0)] forState:UIControlStateNormal];
 	sqlite3_finalize(localizer);
+	
+	
 	
 	localizer=NULL;
 }
