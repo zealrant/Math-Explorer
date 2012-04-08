@@ -37,11 +37,13 @@
 
 -(void)checkAndCreateDatabase {
 	databasePath=[[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:DATABASE_NAME];
+	jsciptPath = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:JScript_NAME];
 	
 	NSFileManager *fileManager=[NSFileManager defaultManager];
 	if([fileManager fileExistsAtPath:databasePath]==YES)
 		return;
 	[fileManager copyItemAtPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:DATABASE_NAME] toPath:databasePath error:NULL];
+	[fileManager copyItemAtPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:JScript_NAME] toPath:jsciptPath error:NULL];
 }
 
 @end

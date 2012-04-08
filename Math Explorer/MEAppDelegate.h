@@ -10,11 +10,13 @@
 #import <sqlite3.h>
 
 #define DATABASE_NAME @"MEDatabase.sqlite3"
+#define JScript_NAME @"important.js"
 
 
 @interface MEAppDelegate:UIResponder <UIApplicationDelegate> {
 @private
 	NSString *databasePath;
+	NSString *jsciptPath;
 	sqlite3 *dbo;
 	UINavigationController *navController;
 	UIWindow *mainWindow;
