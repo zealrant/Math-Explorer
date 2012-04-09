@@ -214,11 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				6BB3F49F1505FE7A00E7C72E /* main.m */,
-<<<<<<< HEAD
-=======
-				6B294EB0151B1CAF00C70C7B /* Math Explorer.entitlements */,
 				EA63B21215300AF8007A2094 /* important.js */,
->>>>>>> 4dcbfb64c7b7f1719d51abf228ea9b32c4d0ba67
 				6BB3F49B1505FE7A00E7C72E /* Math Explorer-Info.plist */,
 				6BB3F4A11505FE7A00E7C72E /* Math Explorer-Prefix.pch */,
 				6BB3F4A21505FE7A00E7C72E /* MEAppDelegate.h */,
