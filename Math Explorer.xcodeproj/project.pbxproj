@@ -37,6 +37,7 @@
 		6BB3F4D21506184000E7C72E /* ufo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB3F4D11506184000E7C72E /* ufo.png */; };
 		6BF064BA152517D100A540B7 /* MEFindingIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF064B8152517D100A540B7 /* MEFindingIntroViewController.m */; };
 		6BF064BB152517D100A540B7 /* MEFindingIntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF064B9152517D100A540B7 /* MEFindingIntroViewController.xib */; };
+		EA63B21315300AF8007A2094 /* important.js in Sources */ = {isa = PBXBuildFile; fileRef = EA63B21215300AF8007A2094 /* important.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		6BF064B7152517D100A540B7 /* MEFindingIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEFindingIntroViewController.h; sourceTree = "<group>"; };
 		6BF064B8152517D100A540B7 /* MEFindingIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEFindingIntroViewController.m; sourceTree = "<group>"; };
 		6BF064B9152517D100A540B7 /* MEFindingIntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MEFindingIntroViewController.xib; sourceTree = "<group>"; };
+		EA63B21215300AF8007A2094 /* important.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = important.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,11 @@
 			isa = PBXGroup;
 			children = (
 				6BB3F49F1505FE7A00E7C72E /* main.m */,
+<<<<<<< HEAD
+=======
+				6B294EB0151B1CAF00C70C7B /* Math Explorer.entitlements */,
+				EA63B21215300AF8007A2094 /* important.js */,
+>>>>>>> 4dcbfb64c7b7f1719d51abf228ea9b32c4d0ba67
 				6BB3F49B1505FE7A00E7C72E /* Math Explorer-Info.plist */,
 				6BB3F4A11505FE7A00E7C72E /* Math Explorer-Prefix.pch */,
 				6BB3F4A21505FE7A00E7C72E /* MEAppDelegate.h */,
@@ -357,6 +364,7 @@
 				6BA87A21150FB47D00FEB198 /* MEReadingIntroViewController.m in Sources */,
 				6BF064BA152517D100A540B7 /* MEFindingIntroViewController.m in Sources */,
 				6B90AB52152B5E8D00AC64FF /* MEFindingSection1ViewController.m in Sources */,
+				EA63B21315300AF8007A2094 /* important.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
