@@ -22,6 +22,7 @@
 
 @property(strong, nonatomic) NSMutableArray *crucialBackup;
 @property(nonatomic) NSUInteger langCode;
+@property(nonatomic) NSUInteger problemID;
 @property(nonatomic, readonly) sqlite3 *dbo;
 
 @end

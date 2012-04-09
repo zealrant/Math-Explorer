@@ -12,7 +12,7 @@
 
 @implementation MEAppDelegate
 
-@synthesize crucialBackup, langCode, dbo;
+@synthesize crucialBackup, langCode, problemID, dbo;
 
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	[self checkAndCreateDatabase];

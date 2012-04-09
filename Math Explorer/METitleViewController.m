@@ -16,6 +16,8 @@
 -(void)viewDidLoad {
 	[super viewDidLoad];
 	
+	[self randomlyPickProblem];
+	
 	int langCode=[(MEAppDelegate *)[[UIApplication sharedApplication] delegate] langCode];
 	sqlite3 *dbo=[(MEAppDelegate *)[[UIApplication sharedApplication] delegate] dbo];
 	sqlite3_stmt *localizer=NULL;
@@ -33,6 +35,18 @@
 	sqlite3_finalize(localizer);
 	
 	localizer=NULL;
+}
+
+-(void)randomlyPickProblem {
+	sqlite3 *dbo=[(MEAppDelegate *)[[UIApplication sharedApplication] delegate] dbo];
+	sqlite3_stmt *probPicker=NULL;
+	sqlite3_prepare_v2(dbo, [@"SELECT COUNT(id) FROM prob_var_map" UTF8String], -1, &probPicker, NULL);
+	sqlite3_step(probPicker);
+	int probCount=sqlite3_column_int(probPicker, 0);
+	sqlite3_finalize(probPicker);
+	probPicker=NULL;
+	
+	[(MEAppDelegate *)[[UIApplication sharedApplication] delegate] setProblemID:(arc4random()%probCount)+1];
 }
 
 -(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
