@@ -37,6 +37,7 @@
 		6BB3F4D21506184000E7C72E /* ufo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB3F4D11506184000E7C72E /* ufo.png */; };
 		6BF064BA152517D100A540B7 /* MEFindingIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF064B8152517D100A540B7 /* MEFindingIntroViewController.m */; };
 		6BF064BB152517D100A540B7 /* MEFindingIntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF064B9152517D100A540B7 /* MEFindingIntroViewController.xib */; };
+		6BF19C9915331FA20022C537 /* important.js in Resources */ = {isa = PBXBuildFile; fileRef = EA63B21215300AF8007A2094 /* important.js */; };
 		EA63B21315300AF8007A2094 /* important.js in Sources */ = {isa = PBXBuildFile; fileRef = EA63B21215300AF8007A2094 /* important.js */; };
 /* End PBXBuildFile section */
 
@@ -324,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF19C9915331FA20022C537 /* important.js in Resources */,
 				6B014E2A150748810005DB22 /* MEDatabase.sqlite3 in Resources */,
 				6BB3F4BE1506019300E7C72E /* MELanguageSelectionViewController.xib in Resources */,
 				6BB3F4C315060D3B00E7C72E /* background.png in Resources */,
