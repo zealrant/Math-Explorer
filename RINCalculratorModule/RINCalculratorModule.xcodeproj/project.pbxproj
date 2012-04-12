@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA775CEE1534827000246878 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA775CED1534827000246878 /* UIKit.framework */; };
+		EA775CF01534827000246878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA775CEF1534827000246878 /* Foundation.framework */; };
+		EA775CF21534827000246878 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA775CF11534827000246878 /* CoreGraphics.framework */; };
+		EA775CF81534827000246878 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA775CF61534827000246878 /* InfoPlist.strings */; };
+		EA775CFA1534827000246878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA775CF91534827000246878 /* main.m */; };
+		EA775CFE1534827000246878 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA775CFD1534827000246878 /* AppDelegate.m */; };
+		EA775D011534827000246878 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA775D001534827000246878 /* ViewController.m */; };
+		EA775D041534827000246878 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA775D021534827000246878 /* ViewController.xib */; };
+		EA775D0F1534835800246878 /* RINCalculrator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA775D0E1534835800246878 /* RINCalculrator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA775CE91534827000246878 /* RINCalculratorModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RINCalculratorModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA775CED1534827000246878 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA775CEF1534827000246878 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA775CF11534827000246878 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA775CF51534827000246878 /* RINCalculratorModule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RINCalculratorModule-Info.plist"; sourceTree = "<group>"; };
+		EA775CF71534827000246878 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA775CF91534827000246878 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA775CFB1534827000246878 /* RINCalculratorModule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RINCalculratorModule-Prefix.pch"; sourceTree = "<group>"; };
+		EA775CFC1534827000246878 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA775CFD1534827000246878 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA775CFF1534827000246878 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA775D001534827000246878 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA775D031534827000246878 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EA775D0D1534835800246878 /* RINCalculrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RINCalculrator.h; sourceTree = "<group>"; };
+		EA775D0E1534835800246878 /* RINCalculrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RINCalculrator.m; sourceTree = "<group>"; };
+		EAF9EE501536F8C500C622A2 /* RINCalculratorModule.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RINCalculratorModule.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA775CE61534827000246878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA775CEE1534827000246878 /* UIKit.framework in Frameworks */,
+				EA775CF01534827000246878 /* Foundation.framework in Frameworks */,
+				EA775CF21534827000246878 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA775CDE1534826F00246878 = {
+			isa = PBXGroup;
+			children = (
+				EA775CF31534827000246878 /* RINCalculratorModule */,
+				EA775CEC1534827000246878 /* Frameworks */,
+				EA775CEA1534827000246878 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA775CEA1534827000246878 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA775CE91534827000246878 /* RINCalculratorModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA775CEC1534827000246878 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA775CED1534827000246878 /* UIKit.framework */,
+				EA775CEF1534827000246878 /* Foundation.framework */,
+				EA775CF11534827000246878 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA775CF31534827000246878 /* RINCalculratorModule */ = {
+			isa = PBXGroup;
+			children = (
+				EAF9EE501536F8C500C622A2 /* RINCalculratorModule.entitlements */,
+				EA775CFC1534827000246878 /* AppDelegate.h */,
+				EA775CFD1534827000246878 /* AppDelegate.m */,
+				EA775CFF1534827000246878 /* ViewController.h */,
+				EA775D001534827000246878 /* ViewController.m */,
+				EA775D021534827000246878 /* ViewController.xib */,
+				EA775CF41534827000246878 /* Supporting Files */,
+				EA775D0D1534835800246878 /* RINCalculrator.h */,
+				EA775D0E1534835800246878 /* RINCalculrator.m */,
+			);
+			path = RINCalculratorModule;
+			sourceTree = "<group>";
+		};
+		EA775CF41534827000246878 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA775CF51534827000246878 /* RINCalculratorModule-Info.plist */,
+				EA775CF61534827000246878 /* InfoPlist.strings */,
+				EA775CF91534827000246878 /* main.m */,
+				EA775CFB1534827000246878 /* RINCalculratorModule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA775CE81534827000246878 /* RINCalculratorModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA775D071534827000246878 /* Build configuration list for PBXNativeTarget "RINCalculratorModule" */;
+			buildPhases = (
+				EA775CE51534827000246878 /* Sources */,
+				EA775CE61534827000246878 /* Frameworks */,
+				EA775CE71534827000246878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RINCalculratorModule;
+			productName = RINCalculratorModule;
+			productReference = EA775CE91534827000246878 /* RINCalculratorModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA775CE01534826F00246878 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = EA775CE31534826F00246878 /* Build configuration list for PBXProject "RINCalculratorModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA775CDE1534826F00246878;
+			productRefGroup = EA775CEA1534827000246878 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA775CE81534827000246878 /* RINCalculratorModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA775CE71534827000246878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA775CF81534827000246878 /* InfoPlist.strings in Resources */,
+				EA775D041534827000246878 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA775CE51534827000246878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA775CFA1534827000246878 /* main.m in Sources */,
+				EA775CFE1534827000246878 /* AppDelegate.m in Sources */,
+				EA775D011534827000246878 /* ViewController.m in Sources */,
+				EA775D0F1534835800246878 /* RINCalculrator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA775CF61534827000246878 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA775CF71534827000246878 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA775D021534827000246878 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA775D031534827000246878 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA775D051534827000246878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EA775D061534827000246878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA775D081534827000246878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RINCalculratorModule/RINCalculratorModule.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RINCalculratorModule/RINCalculratorModule-Prefix.pch";
+				INFOPLIST_FILE = "RINCalculratorModule/RINCalculratorModule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA775D091534827000246878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RINCalculratorModule/RINCalculratorModule-Prefix.pch";
+				INFOPLIST_FILE = "RINCalculratorModule/RINCalculratorModule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA775CE31534826F00246878 /* Build configuration list for PBXProject "RINCalculratorModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA775D051534827000246878 /* Debug */,
+				EA775D061534827000246878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA775D071534827000246878 /* Build configuration list for PBXNativeTarget "RINCalculratorModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA775D081534827000246878 /* Debug */,
+				EA775D091534827000246878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA775CE01534826F00246878 /* Project object */;
+}
