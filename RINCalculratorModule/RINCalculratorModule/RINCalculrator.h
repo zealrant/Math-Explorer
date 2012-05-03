@@ -17,6 +17,9 @@
 
 @interface RINCalculrator : UIView
 {
-
+	int nv1,nv2;
+	int correct;
+	bool isStudentSolveQuestion;
 }
+- (void) generateQuestion:(int) dbID;
 @end
